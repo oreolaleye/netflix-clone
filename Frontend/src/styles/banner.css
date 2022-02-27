@@ -1,0 +1,94 @@
+.banner_main {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 670px; */
+  width: 100%;
+}
+.banner_header_img {
+  width: 100%;
+  mask-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.1)
+  );
+}
+.title {
+  position: absolute;
+  top: 320px;
+  left: 4vw;
+  width: 50%;
+}
+.title h1 {
+  font-size: 3.5vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+.title h4 {
+  font-size: 1.12vw;
+}
+button {
+  border: none;
+  border-radius: 0.5vw;
+  cursor: pointer;
+  font-size: 1.3vw;
+  font-weight: 700;
+  margin-top: 10px;
+  margin-right: 15px;
+  height: 3vw;
+}
+.btn-1 {
+  background-color: white;
+  color: black;
+  width: 10vw;
+}
+.btn-2 {
+  background-color: gray;
+  color: white;
+  width: 11vw;
+}
+
+.hide_text {
+  visibility: collapse;
+  opacity: 0;
+  transition: visibility 0s linear 500ms, opacity 500ms;
+}
+.hide {
+  display: none;
+}
+@media only screen and (max-width: 1070px) {
+  .title {
+    top: 200px;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .title {
+    top: 170px;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .title {
+    top: 140px;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .title {
+    top: 100px;
+  }
+}
+
+@media only screen and (max-width: 490px) {
+  .title {
+    top: 70px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .title {
+    top: 50px;
+  }
+}

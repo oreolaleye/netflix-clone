@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap");
+
+.footer_outer_div {
+  background-color: #000;
+  padding: 20px;
+  margin-top: 3vw;
+}
+.footer_inner_div {
+  text-align: center;
+}
+.footer_inner_div p,
+.footer_inner_div a {
+  font-family: "Roboto", sans-serif;
+  color: #e50914;
+  font-size: 1.1vw;
+}
+.footer_inner_div a {
+  text-decoration: underline;
+}

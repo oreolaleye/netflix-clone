@@ -1,0 +1,44 @@
+.navbar {
+  display: flex;
+  position: absolute;
+  margin-left: 3vw;
+  margin-top: 5px;
+  justify-content: space-between;
+  width: 92%;
+  z-index: 3;
+}
+.nav_left {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo_div {
+  width: 10vw;
+}
+.logo {
+  width: 100%;
+}
+.menu_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.menu_div a {
+  margin-right: 15px;
+  font-size: 1.2vw;
+}
+.avatar_div {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  width: 3vw;
+}
+
+.avatar {
+  width: 100%;
+}

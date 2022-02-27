@@ -1,0 +1,21 @@
+.file_upload_input {
+  width: 100%;
+}
+.file_upload_btn {
+  background-color: transparent;
+  border: 1px solid #808080;
+  border-radius: 2px;
+  cursor: pointer;
+  padding: 5px;
+  margin-top: 8px;
+}
+.file_upload_btn:hover {
+  background-color: #808080;
+}
+.file_name_span {
+  font-size: 1vw;
+}
+.uploaded_span {
+  color: aquamarine;
+  margin-left: 3px;
+}

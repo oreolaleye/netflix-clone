@@ -1,0 +1,53 @@
+@media only screen and (max-width: 2350px) {
+  .create_header_div {
+    padding-bottom: 10vw;
+  }
+}
+.create_movie {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  width: 100%;
+}
+.form_div {
+  border: 1px solid #e50914;
+  border-radius: 2vw;
+  padding: 2vw;
+}
+.form_div_inner {
+  display: flex;
+}
+.input_div {
+  margin-bottom: 5px;
+  width: 100%;
+}
+.input_div input,
+.input_div textarea {
+  width: 100%;
+}
+input,
+textarea {
+  background-color: gray;
+}
+label,
+input {
+  font-size: 1.2vw;
+}
+.form_btn_div {
+  text-align: center;
+}
+.form_btn_div button {
+  color: #000;
+  font-size: 1.1vw;
+  width: 12vw;
+}
+.form_btn_div .btn_1:hover {
+  background-color: #008000;
+}
+.form_btn_div .btn_2:hover {
+  background-color: #e50914;
+}
+.mr-10 {
+  margin-right: 10px;
+}

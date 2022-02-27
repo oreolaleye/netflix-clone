@@ -1,0 +1,129 @@
+.modal {
+  background-color: rgba(0, 0, 0, 0.65);
+  overflow: auto;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 20;
+}
+.inner_modal {
+  background-color: rgb(17, 16, 16);
+  border-radius: 10px;
+  padding-bottom: 40px;
+  position: relative;
+  /* margin-top: 50px; */
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+.inner_modal_scroll {
+  position: relative;
+}
+.modal_close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 40;
+}
+.modal_close_icon {
+  background-color: #999;
+  border-radius: 50%;
+  color: #000;
+  height: 40px;
+  width: 40px;
+}
+.modal_video {
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0));
+  height: 450px;
+  width: 100%;
+}
+.modal_video_title {
+  opacity: 0.6;
+  position: absolute;
+  top: 280px;
+  left: 6%;
+  width: 420px;
+  z-index: 20;
+}
+.modal_video_title h1 {
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+.modal_desc {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 30px;
+  padding: 30px 40px;
+}
+.modal_desc_left_top {
+  margin-bottom: 20px;
+}
+.modal_desc_left_top span {
+  margin-right: 10px;
+}
+.modal_desc_left_top span:nth-of-type(2) {
+  border: 1px solid white;
+  padding: 2px 5px;
+}
+.modal_desc_right div {
+  margin-bottom: 10px;
+}
+.modal_desc_right div span {
+  color: grey;
+}
+.more {
+  padding: 0 35px;
+  margin-top: 50px;
+}
+.more h2 {
+  padding-left: 5px;
+}
+.more_card_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.more_card {
+  background-color: rgb(31, 29, 29);
+  border-radius: 5px;
+  padding-bottom: 30px;
+  position: relative;
+  margin-top: 20px;
+  width: 230px;
+}
+.length {
+  padding: 2px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 20;
+}
+.more_img {
+  width: 100%;
+}
+.more_year {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  padding: 10px 15px;
+}
+.more_year p {
+  margin-top: 15px;
+}
+.more_year > p span {
+  border: 1px solid white;
+  padding: 2px 5px;
+  margin-right: 10px;
+}
+.more_year > span {
+  border: 1px solid white;
+  border-radius: 50%;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  width: 23px;
+}
+.more_desc {
+  padding: 0 15px;
+}
